@@ -1,0 +1,283 @@
+/*
+	Author: Christian Ries
+	Date: 07/11/2017
+	Description: This is the list of styles set overwrite.
+*/
+
+
+/* Quick Changes */
+
+/*
+	To change a setting, do a search & Replace command.
+	Keep in mind that if you are not using unique values,
+	you might have to manually adjust.
+
+
+	Most Backgrounds: SlateGrey;
+	Most Pannels Background: Silver;
+	Most Fonts: Black;
+	Most Test Borders: #000001 (Basically Black);
+	-> This is the 'Black' for most borders.
+	   Some are left at 'Black', so that if you want to change borders,
+	   You can just replace #000001 with something else, and switch it back later
+	   If you don't like your choice. It looks the same but doesn't break the
+	   "Search & Replace" algorithm
+*/
+
+
+
+
+
+
+
+/*Title Bar Text Modification*/
+
+.siem-header-main-title:after{
+	content: " - McAfix";
+	color: black !important;
+}
+
+.siem-header-secondary-title:after {
+	content: " - 'A Shade of Grey'  Ⓒ Ries";
+	color: black !important;
+}
+
+.siem-header-main-title {
+	color: black !important;
+}
+
+.siem-header-secondary-title {
+    color: : black !important;
+}
+
+.siem-menu-toggle {
+    color: black !important;
+}
+
+.siem-header-title {
+    color: black !important;
+}
+
+
+
+/*Background and Main Color Adjustment*/
+
+html, body {
+    background-color: SlateGray !important;
+}
+
+/*NavBar Modifications*/
+.navbar-level1 {
+    background-color: SlateGray	!important;
+    border-bottom: #000001 !important
+}
+
+.siem-dashboard {
+    background-color: SlateGray !important;
+}
+
+.siem-dashboard-filter-row {
+    background-color: SlateGray !important;
+    border-bottom: 1px solid #000001 !important;
+}
+
+.ui-core-inline-pill-set-wrapper .ui-core-inline-pill-set-pills-wrapper {
+    background-color: SlateGray !important;
+    border: 1px solid #000001 !important;
+}
+
+.container-fluid {
+	background-color: SlateGrey !important;
+	border-bottom: 1px solid #000001 !important;
+}
+
+db-view-list md-tabs-canvas {
+    background-color: SlateGray !important;
+}
+
+db-view-list .view-active.siem-tab-list-wrapper {
+    border-bottom: #000001 !important;
+    background-color: SlateGray !important;
+}
+
+.container-view {
+	background-color: SlateGray !important;
+}
+
+.siem-snap-wrapper {
+    border-right: 1px solid #000001 !important;
+}
+
+.siem-min-width-wrapper {
+    border-bottom: 1px solid #000001 !important;
+}
+
+.siem-tab-view-container {
+    border-bottom: 1px solid #000001 !important;
+}
+
+/*.ui-core-inline-pill-set-wrapper .ui-core-inline-pill-set-pills-wrapper .ui-core-inline-pill-set-input .ui-core-drop-down {
+    background-color: Silver !important;
+}*/
+
+.form-feedback .ui-core-drop-down-toggle-input.form-control {
+    background-color: Silver !important;
+}
+
+/* Fonts and Small fixes*/
+
+.uc-btn-clear.uc-btn-secondary {
+    color: #000001 !important;
+}
+
+.uc-btn-clear.uc-btn-secondary .uc-icon {
+    color: #000001 !important;
+}
+
+.uc-btn-clear.uc-btn-secondary:hover .uc-icon {
+    color: black !important;
+}
+
+.siem-tab-list-divider {
+    border-left: 1px solid #000001 !important;
+}
+
+.db-advanced-search-btn, .db-advanced-search-btn[disabled]:hover, .db-advanced-search-btn .intelicon-advance-search {
+    color: #000001 !important;
+}
+
+.ui-core-drop-down-transparent .uc-btn-clear.uc-btn-secondary .intelicon-down {
+    color: #000001 !important;
+}
+
+.siem-tab-view-container md-tab-item .siem-tab-list-title {
+    color: #000001 !important;
+}
+
+.ui-core-inline-pill-set-wrapper .ui-core-magnifier-icon-btn {
+    background-color: slategray !important;
+    border: 1px solid #000001 !important
+}
+
+.ui-core-toast-count-yellow {
+    background-color: SlateGray !important;
+}
+
+.ui-core-toast-count {
+    border: 2px solid Black !important;
+}
+
+.uc-btn-clear.uc-btn-primary {
+    color: Black !important;
+}
+
+.siem-widget-header-buttons .siem-binding-flag {
+    color: Black !important;
+}
+
+.widget-header .uc-icon {
+    color: Black !important;
+}
+
+.siem-user-time {
+    color: Black !important;
+}
+
+.siem-user-options .dropdown-toggle {
+    color: Black !important;
+}
+
+.siem-user-management-navbar li.siem-user-management-icons span {
+    color: Black !important;
+}
+
+.siem-user-management-navbar li.siem-user-management-icons {
+    color: gold;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*Widget Modifications*/
+.widget {
+    color: SlateGray;
+}
+
+.panel {
+    background-color: Silver !important;
+}
+
+.panel-default {
+    border-color: SlateGray !important;
+}
+
+.ui-bar-chart-table-header {
+    color: black !important;
+    border-bottom: 1px solid #000001 !important;
+}
+
+.siem-widget-header-title {
+    color: Black !important;
+}
+
+.siem-widget-header {
+    border-bottom: 1px solid Black !important;
+    background-color: Silver !important;
+}
+
+.ui-core-title-event {
+    background-color: Silver !important;
+    border-bottom: 1px solid #000001 !important;
+}
+
+.ui-core-table-chart-search-bar {
+    border-bottom: 1px solid #000001 !important;
+    background-color: Silver !important
+}
+
+.ui-core-title-event .ui-core-trend-percentage-value {
+    color: Black !important;
+}
+
+.ui-core-table-chart .ui-core-table-chart-selected, .ui-core-table-chart-header-table .ui-core-table-chart-selected {
+    background-color: Silver !important;
+    color: Black !important;
+}
+
+.ui-core-table-chart .ui-core-table-chart-header > .ui-core-table-chart-header-button, .ui-core-table-chart-header-table .ui-core-table-chart-header > .ui-core-table-chart-header-button {
+    color: Black !important;
+}
+
+.md-virtual-repeat-container {
+    background-color: silver !important;
+}
+
+.ui-core-title-event .ui-core-trend-count {
+    color: Black !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+
+  "name": "McAfix",
+  "description": "This extension replaces the background color of the new McAfee Interface",
+  "version": "1.0",
+  "author": "Christian Ries",
+
+  "content_scripts": [{
+    "css": ["styles.css"],
+    "run_at" : "document_start",
+    "matches": ["INSERT IP OF YOUR ESM HERE"]
+  }]
+}
